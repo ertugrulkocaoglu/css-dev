@@ -1,0 +1,79 @@
+/* Genel Stil */
+body {
+        font-family: Arial, sans-serif;
+        margin: 0 auto; /* Sayfayı yatay olarak ortalar */
+        padding: 0;
+      }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Navigasyon */
+  nav {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Ana Bölüm */
+  main {
+    padding: 20px;
+    text-align: center; /* Main içeriğini ortalar */
+  }
+  
+  /* Bölüm */
+  section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* Section içeriğini sola yasalamak için eklenen kural */
+    text-align: left;
+  }
+  
+  /* Altbilgi */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .gorseller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; /* Sayfa sonundan 100 piksel boşluk bırakır */
+  }
+  
+  .gorseller .gorsel {
+    text-align: center;
+    margin: 30px;
+    width: 500px;
+    height: 400px;
+  }
+  
+  .gorseller .gorsel img {
+    width: 100%;
+    height: 100%;
+  }
+  
